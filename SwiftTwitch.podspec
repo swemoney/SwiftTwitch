@@ -20,9 +20,10 @@ usage document of SwiftTwitch, please view the GitHub README available here: htt
   s.social_media_url = 'https://www.linkedin.com/in/chrispperkins/'
 
   s.ios.deployment_target = '8.0'
+  s.tvos.deployment_target = '11.0'
 
-  s.source_files = 'SwiftTwitch/Classes/**/*'	
-  
+  s.source_files = 'SwiftTwitch/Classes/**/*'
+
   s.dependency 'Marshal', '~> 1.2.7'
   s.swift_version = '4.2'
 end
